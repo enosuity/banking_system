@@ -1,0 +1,3 @@
+cargo:rustc-cfg=rustc_1_70
+cargo:rerun-if-changed=/data/Practice/rust_exercises/banking_system/customer/target/debug/build/bigdecimal-da138049df30b847/out/default_precision.rs
+cargo:rerun-if-env-changed=RUST_BIGDECIMAL_DEFAULT_PRECISION
